@@ -1,6 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-export default class Discussion extends Component {
+const DiscussionMessage = props => {
+  return <div>{props.msg}</div>;
+};
+
+class DiscussionList extends Component {
   constructor() {
     super();
 
